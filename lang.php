@@ -63,7 +63,7 @@ class Lang {
      * Returns a string with 2 characters that can be used by the init function to load the preferred language file
      * @return string one of sv|en
      */
-    public static function getPreferedLanguage() {
+    public static function getPreferredLanguage() {
         if (isset($_SERVER['HTTP_ACCEPT_LANGUAGE'])) {
             preg_match_all('/([a-z]{1,8}(-[a-z]{1,8})?)\s*(;\s*q\s*=\s*(1|0\.[0-9]+))?/i', $_SERVER['HTTP_ACCEPT_LANGUAGE'], $lang_parse);
             if (count($lang_parse[1])){
