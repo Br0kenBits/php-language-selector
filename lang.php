@@ -61,7 +61,7 @@ class Lang {
     /**
      * Uses the Accept-Language header to find the clients preferred language
      * Returns a string with 2 characters that can be used by the init function to load the preferred language file
-     * @return string en av sv|es|en
+     * @return string one of sv|en
      */
     public static function getPreferedLanguage() {
         if (isset($_SERVER['HTTP_ACCEPT_LANGUAGE'])) {
