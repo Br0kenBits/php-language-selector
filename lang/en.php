@@ -1,6 +1,6 @@
 <?php
 
-// Associative array wiith id => text mapping
+// Associative array with id => text mapping
 $locale_text_array = [
     // Language configuration
     "php_locale"            => ["en_US.UTF-8", "en_US"],
