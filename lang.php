@@ -86,7 +86,7 @@ class Lang {
 }
 
 // Get preferred language
-$lang = Lang::getPreferedLanguage();
+$lang = Lang::getPreferredLanguage();
 
 // Initiate the texts
 Lang::init($lang);
