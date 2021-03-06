@@ -12,7 +12,7 @@ include ("lang.php");
     </head>
     <body>
         <p>
-            <?php Lang::printText("this_language") ?>
+            <?php Lang::printText("this_language"); ?>
         </p>
     </body>
 </html>
